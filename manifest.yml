@@ -1,0 +1,11 @@
+applications:
+- disk_quota: 1024M
+  host: wechat-oaa-eti
+  name: wechat-oaa-eti 
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
+
+services:
+- Question and Answer-5t
+- AlchemyAPI-wx-oaa
